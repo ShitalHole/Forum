@@ -1,0 +1,111 @@
+.background {
+    background: rgba(0, 0, 0, 0.7) url('bg.jpeg');
+    background-size: cover;
+    background-blend-mode: darken;
+    
+}
+
+.background2 {
+    background: rgba(86, 38, 161, 0.7) url('bg.jpeg');
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 50vh;
+    width: 150vh;
+    align-items: center;
+ 
+}
+
+.box-main {
+
+    justify-content: center;
+    align-items: center;
+    color: rgb(200, 194, 187);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    margin: auto;
+    height: 80%;
+    padding: 12%;
+}
+
+.box-main1 {
+
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 30%;
+    margin: auto;
+
+    padding: 5%;
+}
+
+.text-big {
+    font-size: 51px;
+
+}
+
+.text-small {
+    font-size: 18px;
+}
+
+.background1 {
+    background-color: aliceblue;
+    
+}
+
+.box {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.box1 {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.icon1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: bisque;
+
+}
+
+.icon2 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: bisque;
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .box {
+        width: 60%;
+        margin-top: 20%;
+    }
+
+    .box1 {
+        padding: auto;
+        flex-direction: column;
+        margin: auto;
+    }
+
+   
+    .resp {
+        justify-content: space-evenly;
+        flex-direction: column;
+        min-width: 75%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .background2 {
+        flex-direction: column;
+        padding-top: 70px;
+        height: auto;
+    }
+.background{
+    height: auto;
+}
+}
